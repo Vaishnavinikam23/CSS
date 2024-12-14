@@ -1,0 +1,25 @@
+h1{
+    display: inline;
+  
+}
+.container{
+    background-color: rgb(169, 228, 230);
+    height:800px;
+    width: 700px;
+    position: relative;
+    overflow: scroll;
+}
+.box{
+    background-color: rgb(215, 156, 225);
+    height:100px;
+    width:100px;
+ position: sticky;
+top: 50px;
+left: 100px;
+
+}
+p{
+ color: blue;   
+display: block;
+font-size: 50px;
+}

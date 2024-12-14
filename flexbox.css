@@ -1,0 +1,26 @@
+  @media(max-width: 720px) /*for adjusting screen size*/
+  {
+  .container{
+    border: 5px solid black;
+    border: radius 10px ;
+    background-color: bisque;
+    height: 300px;
+    width:300px; /*jr height width kadla tr screen according box chi arrangement hote*/
+    display:flex;
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;/*used for managing space in container kinda*/
+    flex-grow: 1;/*yeh 2 bss single boxes pr lagti toh naam change karke css lagake ek ek ko*/
+    flex-shrink:1;
+}
+  }
+.box{
+    border:5px solid orange;
+    border-radius: 5px;
+    background-color: azure;
+    width:70px;
+    height:70px;
+    margin:2px;
+    transform: rotate(50deg);
+    /*transform: scale(0.5,0.2);box chi size la adjust or resize*/
+}

@@ -1,0 +1,12 @@
+.gridContainer{
+    height: 250px;
+    width:750px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /*grid-template-rows:  50px 50px 50px 50px 70px 70px;*/
+ grid-gap:10px;
+ overflow: scroll;
+ row-gap: 20px;
+ column-gap: 10px;
+}
